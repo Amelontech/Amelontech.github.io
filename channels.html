@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AMELON TECH</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM6HEY90TS"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'G-ZM6HEY90TS');
+        </script>
+    </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WDML8PL"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->        
+        <header>
+            <a href="index.html" class="logo">,<img src="amelontech.png" alt=""></a>
+            <P id="textp">CHANNELS</P>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="counters.html">Counters</a></li>
+                <li><a href="playlists.html">Playlists</a></li>
+                <li><a href="channels.html" class="active">Channels</a></li>
+                <img src="arrow right.png" class="active" id="arrowleft"</img>
+                <li><a href="https://bit.ly/amelontech" class="active" target="_blank">SUBSCRIBE NOW!</a></li>
+                <img src="arrow left.png" class="active" id="arrowleft"
+            </ul>
+        </header>
+        <section>
+            <div class="main-content">
+                <div class="work">
+                    <div class="work-content">
+                        <img src="stars.png" id="stars">
+                        <img src="moon.png" id="moon">
+                        <img src="mountains_behind.png" id="mountains_behind">
+                        <img src="mountains_front.png" id="mountains_front">
+                        <div class="underline"></div>
+                        <iframe height="80px" width="300px" frameborder="0" src=https://livecounts.io/embed/youtube-live-subscriber-counter/UCqlXE1WDB9yrKO1bFmQ65wA style="border: 0; width:300px; height:80px;"></iframe>
+                        <iframe height="80px" width="300px" frameborder="0" src=https://livecounts.io/embed/youtube-live-subscriber-counter/UCiNeVYo4CuYA3uRWUbJbaiA style="border: 0; width:300px; height:80px;"></iframe>
+                        <iframe height="80px" width="300px" frameborder="0" src=https://livecounts.io/embed/youtube-live-subscriber-counter/UCrbjGBtZr-aSDzmJi9Wv7bw style="border: 0; width:300px; height:80px;"></iframe>
+                        <iframe height="80px" width="300px" frameborder="0" src=https://livecounts.io/embed/youtube-live-subscriber-counter/UCM8Fr0eQ-nuMOQ_UxuA-7ew style="border: 0; width:300px; height:80px;"></iframe>
+
+                </div>   
+        </section>
+        <script>
+            let stars = document.getElementById('stars');
+            let moon = document.getElementById('moon');
+            let mountains_behind = document.getElementById('mountains_behind');
+            let text = document.getElementById('text');
+            let btn = document.getElementById('btn');
+            let mountains_front = document.getElementById('mountains_front');
+            let header = document.querySelector('header');
+
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY;
+                stars.style.left = value * 0.25 + 'px';
+                moon.style.top = value * 1.05 + 'px';
+                mountains_behind.style.top = value * 0.05 + 'px';
+                mountains_front.style.top = value * 0 + 'px';
+                text.style.marginRight = value * 4 + 'px';
+                text.style.marginTop = value * 1.5 + 'px';
+                btn.style.marginTop = value * 1.5 + 'px';
+                header.style.top = value * 0.5 + 'px';
+            })
+        </script>
+    </body>
+</html>
