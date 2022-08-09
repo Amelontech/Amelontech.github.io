@@ -158,6 +158,16 @@ section img#mountains_front
     font-size: 1.5em;
     z-index: 9;
 }
+#textl
+{
+    position: absolute;
+    left: 300px;
+    top: 40px;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 1.5em;
+    z-index: 9;
+}
 #textd
 {
     position: absolute;
