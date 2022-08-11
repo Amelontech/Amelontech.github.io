@@ -167,10 +167,10 @@ section img#mountains_front
     font-size: 1.5em;
     z-index: 9;
 }
-#textpl
+#textv
 {
     position: absolute;
-    left: 550px;
+    left: 320px;
     top: 40px;
     color: #fff;
     white-space: nowrap;
