@@ -34,6 +34,15 @@ font-size: 2em;
 text-transform: uppercase;
 letter-spacing: 2px;
 }
+header .logop
+{
+color: #fff;
+font-weight: 700;
+text-decoration: none;
+font-size: 2em;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
 header ul
 {
     display: flex;
@@ -152,6 +161,16 @@ section img#mountains_front
 {
     position: absolute;
     left: 180px;
+    top: 40px;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 1.5em;
+    z-index: 9;
+}
+#textf
+{
+    position: absolute;
+    left: 550px;
     top: 40px;
     color: #fff;
     white-space: nowrap;
