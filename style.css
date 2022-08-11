@@ -167,12 +167,12 @@ section img#mountains_front
     font-size: 1.5em;
     z-index: 9;
 }
-#textf
+#textpl
 {
     position: absolute;
-    left: 550px;
+    left: 400px;
     top: 40px;
-    color: #fff;
+    color: white;
     white-space: nowrap;
     font-size: 1.5em;
     z-index: 9;
@@ -180,7 +180,7 @@ section img#mountains_front
 #textl
 {
     position: absolute;
-    left: 300px;
+    left: 320px;
     top: 40px;
     color: #fff;
     white-space: nowrap;
