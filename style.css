@@ -167,16 +167,6 @@ section img#mountains_front
     font-size: 1.5em;
     z-index: 9;
 }
-#textv
-{
-    position: absolute;
-    left: 550px;
-    top: 40px;
-    color: #fff;
-    white-space: nowrap;
-    font-size: 1.5em;
-    z-index: 9;
-}
 #textl
 {
     position: absolute;
@@ -254,4 +244,14 @@ div a
 .work-content
 {
     margin-top: 60px;
+}
+#textv
+{
+    position: absolute;
+    left: 550px;
+    top: 40px;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 1.5em;
+    z-index: 9;
 }
