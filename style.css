@@ -255,13 +255,25 @@ div a
     font-size: 1.5em;
     z-index: 9;
 }
-section iframe#facebook_share
+section iframe#share
 {
-    position: absolute;
-    top: 0;
+    position: relative;
+    align-content:space-around;
     left: 0;
-    width: 50%;
-    height: 80%;
+    width: 860%;
+    height: 90%;
+    object-fit: cover;
+    pointer-events: all;
+    z-index: 11;
+}
+section iframe#group
+{
+    position: center;
+    align-content: center;
+    left: 27%;
+    right: 50%;
+    width: 800%;
+    height: 40%;
     object-fit: cover;
     pointer-events: all;
     z-index: 11;
