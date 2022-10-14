@@ -259,7 +259,7 @@ section iframe#share
 {
     position: relative;
     align-content:space-around;
-    left: 0;
+    left: 2%;
     width: 860%;
     height: 90%;
     object-fit: cover;
@@ -270,7 +270,7 @@ section iframe#group
 {
     position: center;
     align-content: center;
-    left: 27%;
+    left: 43%;
     right: 50%;
     width: 800%;
     height: 40%;
