@@ -257,7 +257,7 @@ div a
 }
 section iframe#facebook_share
 {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 50%;
