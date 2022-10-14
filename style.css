@@ -255,3 +255,14 @@ div a
     font-size: 1.5em;
     z-index: 9;
 }
+section iframe#facebook_share
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 80%;
+    object-fit: cover;
+    pointer-events: all;
+    z-index: 11;
+}
