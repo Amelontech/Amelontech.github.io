@@ -289,3 +289,16 @@ iframe
     pointer-events: all;
     z-index: 11;
 }
+section iframe
+{
+    position: center;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    pointer-events: all;
+    z-index: 11;
+    text-transform: uppercase;;
+    justify-content: space-between;
+}
