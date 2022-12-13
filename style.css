@@ -278,3 +278,14 @@ section iframe#group
     pointer-events: all;
     z-index: 11;
 }
+iframe
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    pointer-events: all;
+    z-index: 11;
+}
