@@ -302,3 +302,14 @@ section iframe
     text-transform: uppercase;;
     justify-content: space-between;
 }
+div class codegena_iframe
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    pointer-events: all;
+    z-index: 11;
+}
